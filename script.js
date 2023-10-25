@@ -1,4 +1,5 @@
-import tickets from "./tickets.json" assert { type: "json" };
+const response = await fetch("./tickets.json");
+const tickets = await response.json();
 
 const filesButton = document.querySelector(".files-btn");
 const files = document.querySelector(".files");
