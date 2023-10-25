@@ -4,28 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tickets</title>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
+    <main class="main">
     <div>
-      <button class="files-btn">Получить все файлы</button>
+      <button class="button files-btn">Получить все файлы</button>
       <div class="files"></div>
     </div>
     <div>
-      <button class="folder-btn">Разложить по папкам</button>
-      <div class="folder">Январь</div>
-      <div class="folder">Февраль</div>
-      <div class="folder">Март</div>
-      <div class="folder">Апрель</div>
-      <div class="folder">Май</div>
-      <div class="folder">Июнь</div>
-      <div class="folder">Июль</div>
-      <div class="folder">Август</div>
-      <div class="folder">Сентябрь</div>
-      <div class="folder">Октябрь</div>
-      <div class="folder">Ноябрь</div>
-      <div class="folder">Декабрь</div>
+      <button class="button folder-btn">Разложить по папкам</button>
+      <div class="folders-container">
+      </div>
     </div>
-
+    <div class="modal hide">
+      <div class="modal-header-container">
+        <p class="modal-header">Закрыть</p>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body-payed">
+          <p>Оплаченно</p>
+        </div>
+        <div class="modal-body-notPayed">
+          <p>Не оплачено</p>
+        </div>
+      </div>
+    </div>
+  </main>
     <script type="module" src="script.js"></script>
   </body>
 </html>
