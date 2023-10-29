@@ -1,4 +1,5 @@
-Задание должно быть выполнено на одном из предложенных языков: C++, Kotlin, Java, Python или JavaScript. В крайнем случае допускается выполнение на Delphi или C#
+# Tickets
+#### Задание должно быть выполнено на одном из предложенных языков: C++, Kotlin, Java, Python или JavaScript. В крайнем случае допускается выполнение на Delphi или C#
 
 При оплате квитанций все чеки об оплате сканированы в общую папку и названы в формате "услуга_месяц.pdf", например: квартплата_июнь.pdf, теплоснабжение_март.pdf, электроснабжение_январь.pdf.
 Список названий чеков в общей папке дан в исходном файле "чеки.txt".
@@ -11,9 +12,22 @@
 услуга
 услуга
 
+[Project link/URL](https://lowerrider.github.io/tiskets/)
 
-# Пример работы:
-# [Пример работы:](https://lowerrider.github.io/tiskets/)
+## Technology stack
+____
+
++ Java Script
++ HTML
++ CSS
++ Адаптивная верстка
+____
+## Project UI
+
+![UI1](https://sun9-59.userapi.com/impg/0H4APB5fkQiLhsvOwR90-XV3oLuQgf20ww-qUA/7gmH_MTulsg.jpg?size=2533x1306&quality=96&sign=a09bbf191482c1cc070ed1626601a080&type=album)
+![UI2](https://sun9-71.userapi.com/impg/CWYBk2D_pbD4_6zwzQ0vJ424fqbzORI08ugvyw/n99A34Pa4ms.jpg?size=2541x1309&quality=96&sign=1dbfb5919bb30379272b9759e10e0e81&type=album)
+
+
 # Входной файл чеки.txt:
 # газоснабжение_январь.pdf
 # газоснабжение_февраль.pdf
